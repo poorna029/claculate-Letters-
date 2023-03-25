@@ -1,0 +1,65 @@
+/* Write your code here. */
+
+@media screen and (min-width: 576px) {
+  .superClass {
+    background-image: linear-gradient(to right, #1d976c, #219a6f, #93f9b9);
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10%;
+    text-align: start;
+  }
+  .img {
+    width: 40%;
+    height: 95%;
+    order: 2;
+  }
+  .g {
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .but {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+  }
+  .sec {
+    width: 24vw;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .superClass {
+    background-image: linear-gradient(to right, #1d976c, #219a6f, #93f9b9);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    width: 40%;
+    height: 65%;
+    order: 0;
+  }
+  .g {
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .but {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+  }
+  .sec {
+    width: 24vw;
+  }
+}
