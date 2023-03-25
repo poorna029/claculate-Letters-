@@ -27,6 +27,8 @@
     width: 150px;
     height: 40px;
     border-radius: 15px;
+    text-align: center;
+    margin: auto;
   }
   .sec {
     width: 24vw;
@@ -47,6 +49,7 @@
     width: 40%;
     height: 65%;
     order: 0;
+    margin: 20px 0px;
   }
   .g {
     outline: none;
@@ -58,6 +61,8 @@
     width: 150px;
     height: 40px;
     border-radius: 15px;
+    text-align: center;
+    margin: auto;
   }
   .sec {
     width: 24vw;
